@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Oxygen, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+.container {
+  max-width: 1170px;
+  margin: 0px auto;
+}
+/* main title */
+.main-title {
+  text-align: center;
+  padding: 50px 0px;
+  color: #003e7d;
+}
+.main-title h6 {
+  font-size: 13px;
+  font-weight: normal;
+  padding-bottom: 8px;
+}
+.main-title h2 {
+  font-size: 30.2px;
+  padding-bottom: 8px;
+}
+.main-title span {
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  margin: 20px auto;
+}
+
+.help-contents {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  margin-bottom: 100px;
+}
+
+.help-contents .card {
+  border-radius: 5px;
+  border: 1px solid red;
+
+  width: 30%;
+  margin: 15px;
+}
+
+.heading {
+  font-size: 25px;
+  color: #003e7d;
+  padding: 10px 15px;
+  border-bottom: 1px solid red;
+}
+.button-group {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1px;
+  border-bottom: 1px solid red;
+}
+.button-group button {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 10px;
+  margin: 10px;
+  text-align: left;
+  background-color: #003e7d;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card img {
+  border-top-left-radius: 5px;
+  width: 100%;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.card-body h5 {
+  color: #003e7d;
+  font-size: 23px;
+}
+.card-body p {
+  padding: 20px 5px;
+}
+.card-footer {
+  padding: 25px;
+  border-top: 1px solid red;
+}
+.card-footer a {
+  text-decoration: none;
+}
